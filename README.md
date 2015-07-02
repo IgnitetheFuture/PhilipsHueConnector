@@ -38,6 +38,10 @@ Javascript library used on HueLabs to connect and pair the HueBridge.
 
 # Example for NEW bridges
 
+    var currentBridgeIP = null;
+    var bridgeUserName = null;
+    var isConnected = null;
+
     PhilipsConnector.connect({
         bridge_username: 'MySecretUsername',
         bridge_ipaddress: '192.168.0.1', //The IP address of the bridge
